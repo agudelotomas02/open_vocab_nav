@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+open_vocab_env/
+yolo_env/
+
+# ROS / RTAB-Map outputs
+*.db
+*.db3
+*.sqlite3
+*.bag
+*.mcap
+log/
+install/
+build/
+.rtabmap.db
+
+# Data and models
+data/bags/
+models/
+results/semantic_maps/*.db
+results/semantic_maps/maps/*.db
+
+# Large outputs
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+
+# OS / IDE
+.DS_Store
+.vscode/
