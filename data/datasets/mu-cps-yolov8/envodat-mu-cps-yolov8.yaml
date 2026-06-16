@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 24
+names: ['box', 'broom', 'cabinet', 'chair', 'computer', 'door', 'fan', 'jacket', 'light bulb', 'light switch', 'monitor', 'person', 'plant', 'radiator', 'robot', 'shelves', 'soap dispenser', 'socket', 'table', 'tiled floor', 'trash bin', 'vacum cleaner', 'wash basin', 'window']
+
+Meta_data:
+  scene: mu-cps
+  sequence: seq-02
+  version: 1
+  license: CC BY 4.0
+  url: https://linusnep.github.io/EnvoDat/
