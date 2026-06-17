@@ -36,3 +36,10 @@ weights/
 # OS / IDE
 .DS_Store
 .vscode/
+
+data/datasets/
+
+# Dataset images and labels
+data/datasets/*/train/
+data/datasets/*/valid/
+data/datasets/*/test/
