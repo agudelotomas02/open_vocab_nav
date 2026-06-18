@@ -53,18 +53,18 @@ import time
 # EXPERIMENT
 # ============================================================
 
-MODEL_NAME = "yolov8n.pt"
+MODEL_NAME = "yolov10n.pt"
 
-EXPERIMENT_NAME = "baseline"
+EXPERIMENT_NAME = "batch6"
 
 
 # ============================================================
 # TRAINING
 # ============================================================
 
-EPOCHS = 30
+EPOCHS = 10
 IMAGE_SIZE = 640
-BATCH_SIZE = 2
+BATCH_SIZE = 6
 
 
 # ============================================================
